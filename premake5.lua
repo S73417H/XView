@@ -32,3 +32,6 @@ project "XView"
            "osgDB",
            "OpenThreads"
         }
+
+    configuration { "windows" }
+      defines { "WIN32" }
